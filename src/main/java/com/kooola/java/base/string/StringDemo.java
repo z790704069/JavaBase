@@ -11,8 +11,6 @@ public class StringDemo {
         String s4 = new String("bcd");
         System.out.println(s1 == s2);
         System.out.println(s3 == s4);
-        s1.hashCode()
-
 //        输出如下：
 //        true
 //        false
