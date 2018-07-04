@@ -24,7 +24,7 @@ true
 > equals判断两个字符串对象的字面值是否相同；
 > 直接复制的字符串分配到字符串常量区，相同字符串对象公用地址；
 > 通过new出来的对象，虽然字面值相同，但仍然不属于同一对象，地址自然不同；
-> String类的hashCode()方法不能用来判断字符串的地址，String的hashCode（）方法重写Object的。
+> String类的hashCode()方法不能用来判断字符串的地址，只用来计算hash值。查看Integer的源码可以发现，Integer的hashCode()返回就是自身的数值。String的hashCode（）方法重写Object的。
 
 看一看String的hashCode()方法，就知道跟内存没半点关系：
 ```
