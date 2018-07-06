@@ -17,6 +17,5 @@ public class StringDemo {
 //        可以看出：相同字符串的String对象指向同一块内存（字符串常量区）
 //        通过new出来的String分配在堆中，属于两个不同的对象，因此s3和s4的地址不同
 
-        StringBuilder
     }
 }
